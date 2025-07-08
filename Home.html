@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--Includes special characters-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--Compatible with internet explorer, if anyone uses that-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--width=device-width tells the browser to match the screen size-->
+  <!--initial-scale=1.0 sets the default zoom level-->
+  <title>Portfolio</title>
+<!--helps with search engine optimization and shows up-->
+<!--This is what shows up in the tab title of the browser-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="mycss.css">
+</head>
+
+<body>
+<nav class="navbar">
+  <a href="#" class="logo">Portfolio.</a>
+  <ul>
+    <li><a href="#">Home</a></li>
+<!--class="active" is used to mark the currently active page, like “Home” in this case-->
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="bars-animation">
+  <div class="bar" style="--i:6;"></div>
+  <div class="bar" style="--i:5;"></div>
+  <div class="bar" style="--i:4;"></div>
+  <div class="bar" style="--i:3;"></div>
+  <div class="bar" style="--i:2;"></div>
+  <div class="bar" style="--i:1;"></div>
+</div>
+
+
+<section class="home">
+  <div class="home-info">
+    <h1>Andrea Gjosheva</h1>
+    <h2>I'm a
+      <span style="--i:4;" data-text="Frontend Developer">Frontend Developer</span>
+      <span style="--i:3;" data-text="Youtuber">Youtuber</span>
+      <span style="--i:2;" data-text="Designer">Designer</span>
+      <span style="--i:1;" data-text="System Engineer">System Engineer</span>
+    </h2>
+    <p>I'm a student  of System Engineering, Automation, and Robotics with a strong passion for intelligent technologies and innovative problem-solving. My academic journey has equipped me with a solid foundation in control systems, robotics, embedded programming. I enjoy working on hands-on projects that combine software and real-world hardware, and I'm always eager to learn new tools and technologies that push automation and robotics forward.</p>
+
+    <div class="btn-sci">
+      <a href="#" class="btn">Download CV</a>
+      <div class="sci">
+        <a href="#"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/andrea-gjosheva-006115355/"><i class='bx bxl-linkedin'></i></a>
+        <a href="mailto:gjoshevaandrea@gmail.com"><i class='bx bx-envelope'></i></a>
+        <a href="https://www.youtube.com/@andreagjosh"><i class='bx bxl-youtube'></i></a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="home-img">
+    <div class="img-box">
+      <div class="img-item">
+        <img src="images/ME.PNG" alt="photo of andrea">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="education" class="education">
+  <div class="education-info">
+    <h2  data-text="Education">Education</h2>
+    <div class="schools">
+      <div class="school">
+        <div class="schoolyears">
+          <h3>University</h3>
+          <text>2022-Present</text>
+        </div>
+        <p>Bachelors Degree in Computer System Engineering, Automation and Robotics at the <a href="https://feit.ukim.edu.mk/en/">Faculty of Electrical Engineering and Information Technologies</a>, in the <a href="https://ukim.edu.mk/">University Cyril and Methodius, Skopje</a></p>
+        <p>Relevant coursework: Control systems, AI Fundamentals, Machine Learning</p>
+        </div>
+      <div class="school">
+        <div class="schoolyears">
+          <h3>High School</h3>
+          <text>2018-2022</text>
+        </div>
+        <p>High School Diploma at <a href="https://orcenikolov.edu.mk/">SUGS Orce Nikolov</a></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <h2 data-text="Skills">Skills</h2>
+  <div class="skills-info">
+    <div class="skilltext">
+      <p>I have a strong foundation in programming and enjoy solving problems through code. I quickly adapt to new programming languages and technologies thanks to my curiosity and analytical thinking. Whether it’s writing clean, efficient code or exploring unfamiliar syntax, I’m always eager to learn and expand my skill set to stay up to date in the tech world.</p>
+    </div>
+    <div class="cells">
+      <div class="cell">
+        <i class="bx bx-code-alt"></i>
+        <span>C</span>
+      </div>
+      <div class="cell">
+        <i class="bx bxl-c-plus-plus"></i>
+        <span>C++</span>
+      </div>
+      <div class="cell">
+        <i class="bx bxl-python"></i>
+        <span>Python</span>
+      </div>
+      <div class="cell">
+        <i class="bx bxl-html5"></i>
+        <span>Html</span>
+      </div>
+      <div class="cell">
+        <i class="bx bxl-css3"></i>
+        <span>Css</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="experience">
+  <h2 data-text="Experience">Experience</h2>
+  <div class="ex-info">
+    <div class="intern-info">
+    <h3>Internships</h3>
+    <div class="name-date">
+      <h4>GDi</h4>
+      <text>June, July 2025</text>
+    </div>
+      <p>During my two-month internship at the company, I was introduced to the world of Geographic Information Systems (GIS) and gained hands-on experience with ArcGIS, which sparked my interest in spatial data analysis. I also learned the fundamentals of HTML and CSS, allowing me to understand web development basics, and explored key concepts in data science. This internship not only expanded my technical skills but also helped me become comfortable in a professional working environment, collaborating with colleagues and adapting to real-world project workflows.</p>
+      <div class="links">
+        <a href="https://gdi.net/">About the company</a>
+      </div>
+    </div>
+    <div class="achi-info">
+    <h3>Achievements</h3>
+    <div class="name-date">
+      <h4>Robomac 2025</h4>
+      <text>May 2025</text>
+    </div>
+      <p>Participating in Robomac 2025 was a transformative experience, as I competed and won first place in the robotic arm category. Organized by my university, this competition provided an excellent opportunity for hands-on learning in our field of study, allowing me to apply theoretical knowledge to real-world engineering challenges. Working closely with my team, I developed valuable skills in teamwork, leadership, and strategic planning, all of which were crucial to our success. This achievement not only deepened my technical expertise but also strengthened my ability to collaborate and lead in high-pressure environments.</p>
+      <div class="links">
+        <a href="https://www.youtube.com/watch?v=dUjomtc1YnY&t=5257s">Streamed competition</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="inspirational-image">
+  <div class="image">
+    <img src="images/inspo.png" alt="inspirational-quote-van-gogh">
+  </div>
+</section>
+
+
+<section id="contact" class="contact">
+  <div class="contact-info">
+    <h2 data-text="Contact">Contact</h2>
+    <div class="group">
+      <div class="text">
+        I am open to any internships, projects, or collaborative opportunities, and would be truly honored if you considered me for such roles. I am eager to expand my experience, contribute to new initiatives, and learn from different environments. If you have any opportunities or ideas in mind, I would be excited to discuss how I could be a valuable part of your team.
+      </div>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+
+        <button type="submit">Send message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const sections = document.querySelectorAll("section[id]");
+    const navLinks = document.querySelectorAll(".navbar ul li");
+
+    function activateMenu() {
+      let scrollY = window.pageYOffset;
+
+      sections.forEach(section => {
+        const sectionHeight = section.offsetHeight;
+        const sectionTop = section.offsetTop - 80; // adjust for your navbar height
+        const sectionId = section.getAttribute("id");
+
+        if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+          navLinks.forEach(li => li.classList.remove("active"));
+          const activeLink = document.querySelector('.navbar ul li a[href="#' + sectionId + '"]');
+          if (activeLink) {
+            activeLink.parentElement.classList.add("active");
+          }
+        }
+      });
+
+      // Special case for "Home" at the very top
+      if (scrollY < 200) { // adjust as needed
+        navLinks.forEach(li => li.classList.remove("active"));
+        navLinks[0].classList.add("active");
+      }
+
+      // Special case for bottom of page: highlight "Contact"
+      const body = document.body;
+      const html = document.documentElement;
+      const docHeight = Math.max(
+        body.scrollHeight, body.offsetHeight,
+        html.clientHeight, html.scrollHeight, html.offsetHeight
+      );
+
+      if ((window.innerHeight + window.pageYOffset) >= (docHeight - 2)) {
+        navLinks.forEach(li => li.classList.remove("active"));
+        const contactLink = document.querySelector('.navbar ul li a[href="#contact"]');
+        if (contactLink) {
+          contactLink.parentElement.classList.add("active");
+        }
+      }
+    }
+
+    window.addEventListener("scroll", activateMenu);
+
+    // highlight on click immediately
+    navLinks.forEach(li => {
+      li.addEventListener("click", function() {
+        navLinks.forEach(li => li.classList.remove("active"));
+        this.classList.add("active");
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
